@@ -192,13 +192,27 @@ body {
   .footer-link:nth-child(2) {
     margin: 0;
   }
-}
-@media (max-width: 1400px) {
-  .hero-title {
-    font-size: 48px;
+  .my-btn {
+    position: absolute;
+    top: 554px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 343px;
   }
-  .hero-desc {
-    font-size: 20px;
+  .card-games {
+    position: relative;
+    top: 40px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .gta-img {
+    margin-right: 9px;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .fortnite-img {
+    margin-left: 9px;
+    margin-top: 40px;
   }
 }
 @media (max-width: 1400px) {
@@ -221,5 +235,27 @@ body {
   }
   .btn-purple {
     display: block;
+  }
+  .my-btn {
+    position: absolute;
+    top: 554px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 343px;
+  }
+  .card-games {
+    position: relative;
+    top: 40px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+  .gta-img {
+    margin-right: 9px;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .fortnite-img {
+    margin-left: 9px;
+    margin-top: 40px;
   }
 }
